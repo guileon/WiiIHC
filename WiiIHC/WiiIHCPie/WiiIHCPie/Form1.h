@@ -111,7 +111,7 @@ namespace WiiIHCPie {
 	private: System::Void y_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 			 }
 	private: System::Void start_Click(System::Object^  sender, System::EventArgs^  e) {
-				 for(int i=0 ; i < 500 ; i++)
+				 while(true)//for(int i=0 ; i < 500 ; i++)
 				 {
 					//this->Cursor = gcnew System::Windows::Forms::Cursor( ::Cursor::Current->Handle );
 					//::Cursor::Position = Point(::Cursor::Position.X - 50,::Cursor::Position.Y - 50);
