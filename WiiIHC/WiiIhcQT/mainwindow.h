@@ -17,6 +17,7 @@ public:
     
 private:
     Ui::MainWindow *ui;
+    void mouseMoveEvent(QMouseEvent *e);
 };
 
 #endif // MAINWINDOW_H
